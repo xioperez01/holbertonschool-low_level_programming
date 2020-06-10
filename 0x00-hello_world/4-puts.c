@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* Using puts fuction and return: 0 */
+/* Using puts fuction and return: 0
+main - Entry point */
 
 int main(void)
 {
