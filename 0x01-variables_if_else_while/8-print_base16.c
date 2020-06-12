@@ -6,15 +6,15 @@
 int main(void)
 {
 int n = '0';
-int a_to_f = 'a';
+int a_f = 'a';
 while (n <= '9')
 {
 putchar(n);
 n++;
 }
-while (a_to_f <= 'f')
+while (a_f <= 'f')
 {
-putchar(a_to_f);
+putchar(a_f);
 a_to_f++;
 }
 putchar('\n');
