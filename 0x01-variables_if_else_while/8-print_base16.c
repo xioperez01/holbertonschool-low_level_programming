@@ -15,7 +15,11 @@ n++;
 while (a_f <= 'f')
 {
 putchar(a_f);
+<<<<<<< HEAD
 a_f++;
+=======
+a_to_f++;
+>>>>>>> ede5a30c88636c0f3bcbe5305eed28cfd5f3d07c
 }
 putchar('\n');
 return (0);
