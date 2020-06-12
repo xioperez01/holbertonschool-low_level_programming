@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - prints 0123456789abcdef hexa base
+ *main - prints 0123456789abcdef in hexa base
  *Return: Always 0 (Success)
  */
 int main(void)
