@@ -15,8 +15,8 @@ i = 0;
 /**
  *while (i < 10) - infinite loop
  *{
- *putchar(i);}
- *@'\\o/\n"'-  emoji line breack
+ *putchar(i);
+ *}
  */
 printf("Infinite loop avoided! \\o/\n");
 
