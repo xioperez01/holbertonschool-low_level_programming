@@ -1,13 +1,24 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- *print_to_98 -Entry point
- *@n: variable
- *prints 0 to 98
+ * print_to_98 - prints natural numbers from n to 98
+ * @A: Integer
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-void print_to_98(int n)
+void print_to_98(int A)
 {
-  int m;
-  if (n < 98)
-    {
-      for (m = n; 
+while (A != 98)
+{
+printf("%i, ", A);
+if (A > 98)
+{
+A--;
+}
+else if (A < 98)
+{
+A++;
+}
+}
+printf("%i\n", 98);
+}
