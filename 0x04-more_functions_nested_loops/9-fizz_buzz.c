@@ -1,7 +1,15 @@
 #include <stdio.h>
+/**
+ *main - prints from 1 to 100
+ * % of 3 with Fizz,
+ * % of 5 with Buzz
+ * and % of 3 and % 5 with FizzBuzz
+ *Return: cero
+ */
 int main(void)
 {
 	int n;
+
 	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
