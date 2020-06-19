@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *main - prints from 1 to 100
  * % of 3 with Fizz,
@@ -6,6 +7,7 @@
  * and % of 3 and % 5 with FizzBuzz
  *Return: cero
  */
+
 int main(void)
 {
 	int n;
@@ -34,4 +36,5 @@ int main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
