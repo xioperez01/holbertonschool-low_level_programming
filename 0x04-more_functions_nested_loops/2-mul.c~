@@ -1,0 +1,9 @@
+#include "holberton.h"
+/**
+ *mul - multiplies two integresrs
+ * Return: digit returns 1, if not returns 0
+ */
+int mul(int a, int b)
+{
+	return (a * b);
+}
