@@ -3,9 +3,6 @@
  *_strlen - returns the length of a string.
  *@s: sting
  *Return: length
- *
- *rev_string - reverses a string
- *@s: string to reverse
  */
 
 int _strlen(char *s)
@@ -20,7 +17,10 @@ int _strlen(char *s)
 	return (len);
 }
 
-
+/**
+ *rev_string - reverses a string
+ *@s: string to reverse
+ */
 
 void rev_string(char *s)
 {
