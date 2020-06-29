@@ -3,6 +3,7 @@
  *_strchr - locates a character in a string.
  *@s: String
  *@c: Character to locates
+ *Return: the first occurrence of the character c in s, or NULL if not found
  */
 char *_strchr(char *s, char c)
 {
