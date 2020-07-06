@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ *main - prints the minimum number of coins to make change
+ *for an amount of money.
+ *@argc: counter argument
+ *@argv: argument
+ *Return: if the number of arguments passed to your program is not exactly
+ *else 0
+ */
+
 int main(int argc, char *argv[])
 {
 	int num;
