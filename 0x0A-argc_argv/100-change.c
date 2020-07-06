@@ -41,6 +41,6 @@ int main(int argc, char *argv[])
 			num -= 1;
 		i += 1;
 	}
-	printf ("%d\n", i);
-	return 0;
+	printf("%d\n", i);
+	return (0);
 }
