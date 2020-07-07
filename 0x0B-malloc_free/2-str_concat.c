@@ -11,17 +11,16 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, j;
-	int len1, len2 = 0;
+	int i, j, len1 = 0, len2 = 0;
 	char *s3;
 
 	if (s1 == '\0')
 	{
-		return ('\0');
+		s1 = "";
 	}
-	if (s1 == '\0')
+	if (s2 == '\0')
 	{
-		return ('\0');
+		s2 = "";
 	}
 	for (i = 0; s1[i] != '\0'; i++)
 	{
