@@ -17,7 +17,7 @@ int **alloc_grid(int width, int height)
 	{
 		return ('\0');
 	}
-	array2d = malloc(sizeof(int) * height);
+	array2d = malloc(sizeof(int *) * height);
 
 	if (array2d == '\0')
 	{
@@ -35,6 +35,5 @@ int **alloc_grid(int width, int height)
 			array2d[i][j] = 0;
 		}
 	}
-
 	return (array2d);
 }
