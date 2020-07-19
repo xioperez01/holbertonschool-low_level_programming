@@ -40,6 +40,7 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	printf("\n");
+	va_end(x);
 }
 /**
  *op_c - print a character
