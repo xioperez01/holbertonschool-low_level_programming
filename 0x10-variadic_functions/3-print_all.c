@@ -80,7 +80,7 @@ void op_s(va_list p)
 	switch ((int)(container == NULL))
 	case 1:
 	{
-		container = ("nil");
+		container = "(nil)";
 	}
 
 	printf("%s", container);
