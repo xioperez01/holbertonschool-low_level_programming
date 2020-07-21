@@ -17,7 +17,11 @@ void op_i(va_list p);
 void op_f(va_list p);
 void op_s(va_list p);
 
-/* structure */
+/**
+ *struct initial - structure for formats
+ *@ar: string of formats
+ *@f: function to selec correct format
+ */
 
 typedef struct initial
 {
