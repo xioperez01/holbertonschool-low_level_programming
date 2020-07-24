@@ -27,7 +27,7 @@ int _strlen(const char *s)
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new_node, *last;
+	list_t *new_node, *last = *head;
 
 	if (str == NULL)
 		return (NULL);
@@ -43,7 +43,6 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (strdup(str) == NULL)
 		return (NULL);
-	last = *head;
 
 	if (*head == NULL)
 	{
@@ -55,5 +54,5 @@ list_t *add_node_end(list_t **head, const char *str)
 			last = last->next;
 		last->next = new_node;
 	}
-	return (new_node);
+	return (*head);
 }
