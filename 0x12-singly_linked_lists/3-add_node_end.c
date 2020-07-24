@@ -43,15 +43,14 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (strdup(str) == NULL)
 		return (NULL);
+	last = *head;
 
 	if (*head == NULL)
 	{
 		*head = new_node;
-		return (NULL);
 	}
 	else
 	{
-		last = *head;
 		while (last->next != NULL)
 			last = last->next;
 		last->next = new_node;
