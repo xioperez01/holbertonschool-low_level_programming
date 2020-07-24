@@ -47,12 +47,12 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (*head == NULL)
 	{
 		*head = new_node;
-		return (NULL);
 	}
-
-	while (last->next != NULL)
-		last = last->next;
-
-	last->next = new_node;
+	else
+	{
+		while (last->next != NULL)
+			last = last->next;
+		last->next = new_node;
+	}
 	return (new_node);
 }
