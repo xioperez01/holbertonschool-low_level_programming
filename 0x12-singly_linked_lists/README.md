@@ -1,4 +1,4 @@
-# 0x12. C - Singly linked lists #
+# 0x12. C - Singly linked lists :octocat: #
 In this repository are files with codes that solve exercises posed on simply
 linked lists
 ### Files ###
