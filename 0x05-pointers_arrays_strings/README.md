@@ -1,4 +1,4 @@
-# 0x05. C - Pointers, arrays and strings #
+# 0x05. C - Pointers, arrays and strings :octocat: #
 ## Learning Objectives ##
 ### General ###
 * What are pointers and how to use them
