@@ -7,6 +7,7 @@
 #include <fcntl.h> /* open function */
 #include <unistd.h> /* Close, read and write functions */
 #include <stdio.h> /* printf function */
+#include <stdlib.h> /* malloc */
 
 /* prototypes */
 ssize_t read_textfile(const char *filename, size_t letters);
