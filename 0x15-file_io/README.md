@@ -1,6 +1,6 @@
 # 0x15. C - File I/O :octocat: #
 ## Resources ##
-* man or help: *
+**man or help:**
 * open
 * close
 * read
