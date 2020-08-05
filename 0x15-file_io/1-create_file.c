@@ -44,7 +44,7 @@ int create_file(const char *filename, char *text_content)
 
 	write_char = write(fd, text_content, size_);
 
-	if (write_char == -1)
+	if (write_char == -1 || write_char != size_)
 	{
 		close(fd);
 		return (-1);
