@@ -1,4 +1,4 @@
-# 0x17. C - Doubly linked lists :capital_abcd: :left_right_arrow: :abcd: :left_right_arrow: :abc: #
+# 0x17. C - Doubly linked lists :capital_abcd: :left_right_arrow: :abcd: :left_right_arrow: :abc:  :nerd_face:	 #
 ## Learning Objectives ##
 ### General ###
 * What is a doubly linked list
