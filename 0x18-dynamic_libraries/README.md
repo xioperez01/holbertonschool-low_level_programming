@@ -9,7 +9,9 @@
 3. What are the differences between static and shared libraries
 4. Basic usage nm, ldd, ldconfig
 ## Environment ##
-* Languages: Python3.4.3
+* Language: C
 * OS: Ubuntu 14.04 LTS
-## Autors ##
- Angie Pérez [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/xiommyperez)
+* Compiler: gcc 4.8.4
+* Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
+### Autors ##
+Angie Pérez [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/xiommyperez)
