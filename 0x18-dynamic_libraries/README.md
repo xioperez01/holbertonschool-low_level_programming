@@ -1,13 +1,13 @@
 # 0x18. C - Dynamic libraries :green_book: :computer: :books: #
 ## Learning Objectives ##
 ### General ###
-* What is a dynamic library,
+1. What is a dynamic library,
 ⋅⋅* how does it work,
 ..* how to create one,
 ..* and how to use it
-* What is the environment variable $LD_LIBRARY_PATH and how to use it
-* What are the differences between static and shared libraries
-* Basic usage nm, ldd, ldconfig
+2. What is the environment variable $LD_LIBRARY_PATH and how to use it
+3. What are the differences between static and shared libraries
+4. Basic usage nm, ldd, ldconfig
 ## Environment ##
 * Languages: Python3.4.3
 * OS: Ubuntu 14.04 LTS
