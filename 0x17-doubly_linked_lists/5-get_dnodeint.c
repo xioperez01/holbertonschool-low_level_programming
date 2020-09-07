@@ -11,20 +11,20 @@
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *node_index = malloc(sizeof(dlistint_t));
-	dlistint_t *temp = malloc(sizeof(dlistint_t));
 	unsigned int i = 0;
 
-	temp = head;
+	node_index = head;
 
-	if (i > index || head == NULL)
+	if (head == NULL)
 		return (NULL);
 
-	for (i = 0; i <= index; i++)
+	while (node_index)
 	{
 		if (i == index)
-			node_index = temp;
-		temp = temp->next;
+			return (node_index);
+		node_index = node_index->next;
+		i++;
 	}
 
-	return (node_index);
+	return (NULL);
 }
