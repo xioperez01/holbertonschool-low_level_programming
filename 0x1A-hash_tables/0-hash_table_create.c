@@ -10,7 +10,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *new_table;
 	hash_node_t **array;
-	unsigned int i = 0;
+	unsigned long int i = 0;
 
 	if (size == 0)
 		return (NULL);
