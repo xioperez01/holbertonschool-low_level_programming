@@ -26,12 +26,12 @@ hash_table_t *hash_table_create(unsigned long int size)
 		free(new_table);
 		return (NULL);
 	}
+
 	while (i < size)
 	{
 		array[i] = NULL;
 		i++;
-	}
-	
+	}	
 	new_table->size = size;
 	new_table->array = array;
 
