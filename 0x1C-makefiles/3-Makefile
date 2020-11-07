@@ -20,7 +20,7 @@ oclean:
 fclean: clean object
 
 # Forces recompilation of all source files
-re: all oclean
+re: oclean all
 
 
 
