@@ -6,11 +6,12 @@ RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 .PHONY: all clean oclean fclean re
+
 # Builds executable
-all: $(OBJ) m.h
+all: m.h $(OBJ) 
 	$(CC) $(OBJ) -o $(NAME)
 
-# Eletes all Emacs and Vim temporary files along with the executable
+# Deletes all Emacs and Vim temporary files along with the executable
 clean:
 	$(RM) *~ $(NAME)
 
