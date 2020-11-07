@@ -17,7 +17,7 @@ oclean:
 	$(RM) $(OBJ)
 
 # Deletes the Emacs temporary files, the executable, and the object files
-fclean: clean object
+fclean: clean oclean
 
 # Forces recompilation of all source files
 re: oclean all
