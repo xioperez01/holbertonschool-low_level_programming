@@ -40,7 +40,7 @@ int binary_search(int *array, size_t size, int value)
 
 	while (l <= r)
 	{
-		print_arr(array, l, r);
+		print_array(array, l, r);
 		mid = (l + r) / 2;
 		if (array[mid] == value)
 			return (mid);
