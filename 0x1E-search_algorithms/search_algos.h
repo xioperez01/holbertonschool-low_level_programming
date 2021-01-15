@@ -13,4 +13,7 @@ int binary_search(int *array, size_t size, int value);
 void print_array(int *array, size_t l, size_t r); /** Auxiliar **/
 int jump_search(int *array, size_t size, int value); /** Advanced **/
 int interpolation_search(int *array, size_t size, int value); /** Advanced **/
+int auxiliar_search(int array[], int start, int end, int key); /* Auxiliar */
+int exponential_search(int *array, size_t size, int value); /* Advanced */
+
 #endif
