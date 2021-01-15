@@ -1,6 +1,25 @@
 #include "search_algos.h"
 
 /**
+ * print_array - print array
+ * @array: array
+ * @l: left index
+ * @r: right index
+ */
+void print_array(int *array, size_t l, size_t r)
+{
+	size_t i = 0;
+
+	printf("Searching in array: ");
+	for (i = l; i <= r; i++)
+	{
+		if (i != r)
+			printf("%d, ", array[i]);
+		else
+			printf("%d\n", array[i]);
+	}
+}
+/**
  * auxiliar_search - Binary search with four parameters
  * @array: Array to search in
  * @start: Lef
